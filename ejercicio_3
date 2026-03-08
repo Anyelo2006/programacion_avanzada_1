@@ -1,0 +1,26 @@
+
+def main():
+    inicio = int(input("Ingrese el numero de inicio: "))
+    limite = int(input("Ingrese el numero de iteraciones: "))
+
+    if limite < 0:
+        print("Error: el limite no puede ser negativo. No se genera la serie.")
+        return
+
+    lista = []
+    a = inicio
+    b = 1
+
+    for i in range(limite):
+        lista.append(a)
+        temp = a
+        a = a + b
+        b = temp
+
+    print(f"\nLista completa: {lista}")
+    print(f"Cantidad de terminos: {len(lista)}")
+    if len(lista) > 0:
+        print(f"Ultimo valor: {lista[-1]}")
+
+if __name__ == "__main__":
+    main()
