@@ -28,6 +28,6 @@ def main():
 
     print("DATOS ALMACENADOS")
     for p in lista:
-        print(persona())
+        print(f"Nombre: {p['nombre']}, Edad: {p['edad']}, Correo: {p['correo']}")
 if __name__ == "__main__":
     main()

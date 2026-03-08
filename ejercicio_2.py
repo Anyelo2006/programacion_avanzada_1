@@ -1,7 +1,7 @@
 def main():
     v_base = float(input("Ingrese el valor monetario: "))
 
-    impuesto = v_base * 0.19
+    impuesto = v_base  * 0.19
     
     if v_base >= 200000:
         descuento = v_base * 0.10
