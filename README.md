@@ -8,7 +8,7 @@ Este repositorio contiene una colección de scripts en **Python** desarrollados 
 * **Ejercicio 5:** Validación de edad y formato de correo electrónico.
 
 ## 🛠️ Tecnologías utilizadas
-* Python 3.13
+* Python 3.14
 * Git / GitHub para el control de versiones.
 
 ## 👤 Autor
